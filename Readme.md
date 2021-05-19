@@ -1,9 +1,9 @@
 # Личный проект «Седона»
 
 * Студент: [Денис Двоеглазов](https://up.htmlacademy.ru/htmlcss/31/user/1750997).
-* Наставник: `Неизвестно`.
+* Наставник:[Аслан Березгов](https://htmlacademy.ru/profile/id858779).
 
----
+
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
 _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`._
