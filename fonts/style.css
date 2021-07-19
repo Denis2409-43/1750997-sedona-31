@@ -1,0 +1,228 @@
+:root {
+    --white: #FFFFFF
+    --black: #000000 
+    --grey: #333333 
+    --blue: #74ACCF
+    --brown: #76655A 
+    --light-gray: #EEEEEE
+    --soft-blue: #81B3D2
+    
+}
+.page-body {
+    min-width: 960px;
+    margin: 0;
+    padding: 0;
+    font-family: PT Sans;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: var(--black);
+    text-transform: uppercase;
+    background-color: var(--white);
+    min-height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-content: stretch;
+    }
+.a {
+    text-decoration: none;
+}
+.img {
+    max-width: 100%;
+    height: auto;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.main-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    line-height: 26px;
+    color: black;
+    background-color: white;
+}
+.main-navigation-wrapper {
+    width: 100%;
+    margin-bottom: 77px;
+    background-color: white;
+}
+.site-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px ;
+    margin: 0;
+    padding: 0;    
+    list-style: none;
+    min-height: 70px;
+}
+.site-navigation-current a:not([href]) {
+    background-color: white;   
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.main-navigation-wrapper .container {
+    display: flex;
+    justify-content: space-between;
+}
+.site-navigation a {
+    display: block;
+    margin: 0;
+    padding: 0;
+    color: black;
+    padding: 25px 20px;
+}
+.site-navigation a:hover,
+.site-navigation a:focus {
+    background-color: white;
+}
+.features {
+    margin-bottom: 80px;
+}
+.features-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.feature-item {
+    text-align: center;
+}
+.feature-item p {
+    margin: 10px;
+}
+.feature-item h3 {
+    font-size: 21px;
+    line-height: 21px; 
+}
+.index-columns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    color: white;
+    background-color: blue;
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+.index-columns h3 {
+    font-size: 14px;
+    line-height: 21px;
+}
+.button {
+    display: inline-block;
+    font: inherit;
+    text-align: center;
+    color: white;
+    vertical-align: uppercase;
+    background-color: brown;
+    border: none;
+}
+.button-search {
+    font: inherit;
+    text-align: center;
+    color: white;
+    vertical-align: uppercase;
+    background-color: blue;
+    border: none;
+}
+.button:hover,
+.button:focus,
+.button:active {
+    background-color: (--special);
+}
+.contats-phone {
+    color: inherit;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    color: black;
+    background-color: white;
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+.modal-booking {
+    top: 2741px;
+    bottom: auto;
+    width: 329px;
+    padding: 61px 55px 68px;
+
+}
+.appointment {
+    width: 568px;
+    height: 395px;
+    color: black;
+    background-color: white;
+}
+.appointment-item {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.appointment-item input {
+    width: 346px;
+    height: 38px;
+    font: inherit;
+    background-color: transparent;
+    border: 2px solid var();
+}
+.appointment-item input:focus {
+    border-color: var(--special);
+}
+.button-search {
+    margin-top: 10px;
+    margin-right: 0;
+    width: 458px;
+    height: 58px;
+    color: white;
+    background-color: #81B3D2;
+}
+.main-footer {
+    color: black;
+    background-color: white;
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+.footer-contacts a{
+    color: black;
+    text-decoration: underline;
+}
+.footer-contacts a:hover, 
+.footer-contacts a:focus {
+    text-decoration: none;
+}
+.social-button ul {
+    list-style: none;
+}
+
+.social-button {
+    color:white;    
+}
+.social-button:hover,
+.social-button:focus {
+background-color: blue;
+}
+.footer-copyright .button:hover
+.footer-copyright .button:focus {
+    background-color: black;
+}
+
+
