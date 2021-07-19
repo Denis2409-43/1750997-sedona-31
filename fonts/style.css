@@ -6,7 +6,7 @@
     --brown: #76655A 
     --light-gray: #EEEEEE
     --soft-blue: #81B3D2
-
+    
 }
 .page-body {
     min-width: 960px;
@@ -224,3 +224,5 @@ background-color: blue;
 .footer-copyright .button:focus {
     background-color: black;
 }
+
+
